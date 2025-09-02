@@ -1,12 +1,9 @@
-import React, { useContext } from 'react'
+
 import { FcLike } from 'react-icons/fc'
 import { FaCommentDots, FaShareAlt } from 'react-icons/fa'
-import { IoIosList } from 'react-icons/io'
 import Heater from '../Header/Heater'
-
 import { Link } from 'react-router-dom'
-import CreateComments from '../createComments/createComments'
-import Comments from './../../page/Comments/Comments';
+import CreateComments from './../createComments/CreateComments';
 export default function Post({ post, inSingelPage }) {
 
   const frestcomment = post.comments[0]
