@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+ 
+@utility container{
+  
+margin:auto;
+
+ @media (width >= 96rem ) {
+        max-width: 90rem ;}
+
+
+}
+@layer components { 
+
+  
+   .btn { @apply   flex    after:transition-all  after:duration-500  font-bold   after:bg-blue-950  after:absolute after:h-1 after:bottom-0  after:left-0 after:w-0   hover:bg-gray-300 hover:after:w-full };
+   
+}
