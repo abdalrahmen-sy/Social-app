@@ -41,7 +41,7 @@ export default function Login() {
           
           
           localStorage.setItem('Token',data.token)
-          Navigate('/Home')
+          Navigate('/home')
           setToken(data.token)
         }
     catch (error) { 
